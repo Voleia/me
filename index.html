@@ -79,6 +79,7 @@
 
         .agiyabox {
             background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('Agiya.png');
+            background-size: cover;
         }
 
         .textbox {
@@ -631,7 +632,9 @@
                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                                 referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe>
                             <center>
-                                <a class="btn" target="_blank" href="">NI View on YouTube</a>
+                                <a class="btn" target="_blank"
+                                    href="https://github.com/Voleia/me/tree/main/Partial_LegacyOfSolaris/Campaign">View
+                                    Source Code</a>
                                 <p>&nbsp;</p>
                                 <p style="text-size:0.5rem;color:gray">Made with <a onclick="openUnityPopup()">Unity
                                         (C#)</a></p>
@@ -685,9 +688,9 @@
                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                                 referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe>
                             <center>
-                                <a class="btn" target="_blank" href="">NI View on YouTube</a>
-                                <p>&nbsp;</p>
-                                <a class="btn" target="_blank" href="">NI View on Github</a>
+                                <a class="btn" target="_blank"
+                                    href="https://github.com/Voleia/me/tree/main/Partial_RacesProject">View Source
+                                    Code</a>
                                 <p>&nbsp;</p>
                                 <p style="text-size:0.5rem;color:gray">Made in Java</p>
                             </center>
@@ -725,15 +728,11 @@
                             <h1>Solaris V1<h3 style="color:gray;margin-top:-15px;">Summer Camp Project, 2024</h3>
                             </h1>
                             <iframe class="youtubevideo"
-                                src="https://www.youtube.com/embed/7NDMv9_4ym0?si=VssuGakK-AMeudsZ"
+                                src="https://www.youtube.com/embed/IXF490j4xZY?si=XqI1FSdKcHsiftRo"
                                 title="YouTube video player" frameborder="0"
                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                                 referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe>
                             <center>
-                                <a class="btn" target="_blank" href="">NI View on YouTube</a>
-                                <p>&nbsp;</p>
-                                <a class="btn" target="_blank" href="">NI Project Files</a>
-                                <p>&nbsp;</p>
                                 <p style="text-size:0.5rem;color:gray">Made with <a
                                         onclick="openPopup('Unreal Engine 5', 'A fairly heavy game-engine more intensive or high-graphics games than <a onclick=\'openUnityPopup()\'>Unity</a>')">UE5</a>
                                 </p>
@@ -778,7 +777,8 @@
                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                                 referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe>
                             <center>
-                                <a class="btn" target="_blank" href="">NI View in OpenProcessing</a>
+                                <a class="btn" target="_blank" href="https://openprocessing.org/sketch/1539966">View in
+                                    OpenProcessing</a>
                                 <p>&nbsp;</p>
                                 <p style="text-size:0.5rem;color:gray">Made in Javascript</p>
                             </center>
@@ -1099,7 +1099,7 @@
                 var cur = $(this);
                 var xvalue = "center";
                 var factor = -0.5;
-                var yvalue = scrolltotop * factor;
+                var yvalue = scrolltotop * factor - 500;
                 cur.css('background-position', xvalue + " " + yvalue + "px");
             });
         };
