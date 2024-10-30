@@ -1,0 +1,3 @@
+public enum Treaty {
+    PEACE,ALLIANCE,OPENBORDERS,UNRIVALED,TRADE
+}

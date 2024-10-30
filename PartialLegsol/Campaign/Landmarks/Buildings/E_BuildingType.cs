@@ -1,0 +1,3 @@
+public enum E_BuildingType {
+    EMPTY_BUILDING, LOCKED_BUILDING, FOOD_STONE_CONVERTER
+}
